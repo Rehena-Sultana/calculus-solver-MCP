@@ -1,0 +1,5 @@
+groq
+mcp
+sympy
+python-dotenv
+streamlit

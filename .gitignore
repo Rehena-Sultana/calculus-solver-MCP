@@ -1,0 +1,80 @@
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+
+# Python bytecode and cache
+__pycache__/
+/**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Testing & Linting cache
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+myenv/
+**/myenv/
+**/venv/
+**/.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# Logs, Databases and Temporary files
+*.log
+*.sqlite
+*.db
+*.tmp
+*.bak
+scratch/
+tmp/
+temp/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
